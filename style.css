@@ -1,0 +1,18 @@
+.center {
+    margin: auto;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.qn_box{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(0, 255, 208);
+}
+
+.ans_box{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: yellow;
+}
