@@ -8,16 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <textarea data-autoresize name="" id="qn" class="qn_box"></textarea>
+    <div class="info_box">
+        <div class="buttons">
+            <button class="rest">Restaurant</button>
+            <button class="bet">Better</button>
+        </div>
     </div>
-    <div>
-        <textarea data-autoresize name="" id="ans" class="ans_box"></textarea>
-    </div>
-    <div>
-        <button id="btn" class="center">Answer</button>
+    <div class="QA_box">
+        <div>
+            <textarea data-autoresize name="" id="qn" class="qn_box"></textarea>
+        </div>
+        <div>
+            <textarea data-autoresize name="" id="ans" class="ans_box"></textarea>
+        </div>
+        <div>
+            <button id="prv" class="center">Previous</button>
+            <button id="btn" class="center">Answer</button>
+        </div>
     </div>
 </body>
-<script src="js/text.js"></script>
+<script src="js/restTxt.js"></script>
+<script src="js/betTxt.js"></script>
 <script src="js/script.js"></script>
 </html>

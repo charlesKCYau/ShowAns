@@ -5,6 +5,15 @@
     font-weight: 600;
 }
 
+.info_box .buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 30px;
+    border-top: 1px solid lightgrey;
+}
+
 .qn_box{
     font-size: 20px;
     font-weight: 600;

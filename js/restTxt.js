@@ -1,4 +1,4 @@
-let txt = [
+let restTxt = [
     {
         question: "hello! how can i help you?",
         answer: "hello! i would like a table for four, please. Of course, please follow me.",
